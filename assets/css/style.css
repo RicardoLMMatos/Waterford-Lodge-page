@@ -38,11 +38,14 @@ h3 {
 
 /* Grid system */
 
+
 .container {
   width: 100%;
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .row {
@@ -63,6 +66,21 @@ h3 {
   width: calc(50% - 30px);
 }
 
+.column--shrink{
+  width: auto;
+  flex: none;
+}
+
+.align-centre{
+  align-items: center;
+}
+.justify-centre{
+  justify-content: center;
+}
+.space-between{
+  justify-content: space-between;
+}
+
 /* Card system */
 
 .card {
@@ -80,6 +98,13 @@ h3 {
 
 
 /*Ul's*/
+nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 ul {
   display: flex;
   flex-direction: row;
@@ -117,48 +142,73 @@ ul li a:hover {
 
 /* Navbar*/
 
-.nav-desk {
+/* Navbar*/
+.header{
+  background-color: #546270;
   width: 100%;
   position: fixed;
   z-index: 999;
   top: 0;
   left: 0;
   right: 0;
+  background-color: #546270;
+  box-shadow: 5px 1px 12px -2px black;
+}
+.header ul {
+  width: 100%;
+}
+.header .nav-desk {
+
   transition: 0.3s ease-in-out;
   color: #fff;
   font-size: 1.5rem;
 }
+.header .header-logo {
+    font-family: 'Great Vibes', serif;
+    color: rgb(197, 157, 95);
+    font-size: 5rem;
+    
+  }
 
-.active {
-  text-decoration:underline;
+
+  .header .active {
+    text-decoration:underline;
+  }
+  
+  .header .nav-active {
+
+  }
+  
+  
+  .room-booking {
+    background-color: rgb(197, 157, 95);
+  }
+  
+  .room-booking :hover {
+    color: #fff;
+  }
+  
+  .header ul li {
+    padding: 1rem;
+    display: inline-block;
+    transition: color .25s ease-in-out;
+  }
+  
+  @media only screen and (max-width: 1023px){
+    .header ul {
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  @media only screen and (min-width: 1024px){
+    .header .header-logo {
+      padding-right: 8rem;
+    }
+    .header ul li:first-child{
+    margin-right: auto;
+  }
 }
-
-.nav-active {
-  background-color: #546270;
-  box-shadow: 5px 1px 12px -2px black;
-}
-
-.logo {
-  font-family: 'Great Vibes', serif;
-  color: rgb(197, 157, 95);
-  font-size: 5rem;
-  padding-right: 8rem;
-}
-
-.room-booking {
-  background-color: rgb(197, 157, 95);
-}
-
-.room-booking :hover {
-  color: #fff;
-}
-
-ul li {
-  padding: 1rem;
-  display: inline-block;
-  transition: color .25s ease-in-out;
-}
-
 .btn {
   font-size: 1.5rem;
   padding: 2rem;
@@ -374,37 +424,59 @@ ul li {
 
 /* Footer area */
 
-.footer-row {
+
+/* Footer area */
+
+.footer{
   background-color: #546270;
   width: 100%;
   font-size: 2rem;
-  /* margin-bottom: -1; */
-}
+  padding-top: 25px;
+  padding-bottom: 25px;
 
-.logo-footer {
-  font-size: 4rem;
-  margin-right: 10rem;
 }
-
+  
 .social-networks {
   color: rgb(197, 157, 95);
   font-size: 3rem;
 }
+.footer  p {
+  color: #fff;
+  margin-bottom: 0;
+}
+
 
 .footer-info {
   width: 100%;
   background-color: #546270;
   color: #fff;
+
 }
 
-.footer-info p {
-  float: right;
-  margin-right: 20rem;
-  color: #fff;
-  margin-bottom: 2rem;
+.footer-logo{
+  font-family: 'Great Vibes', serif;
+  color: rgb(197, 157, 95);
+  font-size: 5rem;
+
+}
+.footer-nav{
+  margin-bottom: 15px;
 }
 
 
+@media only screen and (min-width: 1024px){
+  .footer-info {
+  text-align: right;
+  }
+  .footer li:last-child a{
+    padding-right: 0;
+  }
+}
+
+.footer li:last-child i{
+  padding-right: 0;
+
+}
 /* Gallery area */
 
 .gallery {
@@ -458,4 +530,70 @@ ul li {
 
 .function-header {
   margin-top: 15rem;
+}
+
+
+/*  Mobile */
+@media only screen and (min-width: 1px) and (max-width: 639px){
+
+  /* Grid system */
+    /* global */
+    .column--50{
+      width: calc(100% - 30px);
+    }
+
+   /* specific */
+  .column--m50{
+    width: calc(50% - 30px);
+  }
+  .column--m100{
+    width: calc(100% - 30px);
+  }
+  .column--mshrink{
+    width: auto;
+    flex: none;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 640px) and (max-width: 1023px){
+
+    /* Grid system */
+    /* global */
+    .column--50{
+      width: calc(50% - 30px);
+    }
+     /* specific */
+    .column--t50{
+      width: calc(50% - 30px);
+    }
+    .column--t100{
+      width: calc(100% - 30px);
+    }
+    .column--tshrink{
+      width: auto;
+      flex: none;
+    }
+
+}
+
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+
+    /* Grid system */
+    /* global */
+    .column--50{
+      width: calc(50% - 30px);
+    }
+    /* specific */
+  .column--d50{
+    width: calc(50% - 30px);
+  }
+  .column--d100{
+    width: calc(100% - 30px);
+  }
+  .column--dshrink{
+    width: auto;
+    flex: none;
+  }
 }
