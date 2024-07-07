@@ -224,13 +224,18 @@ ul li a:hover {
 .mobile-nav a i {
   font-size: 3.5rem;
   color: rgb(197, 157, 95);
-  padding: 1rem;
+  padding: 1.5rem;
   display: block;
   position: absolute;
   right: 0;
   top: 0;
   bottom: 0;
 }
+
+.nav-logo {
+  color: #fff;
+}
+
 
 
 
@@ -644,5 +649,14 @@ ul li a:hover {
   .mobile-nav {
     display: none !important;
   }
+  
+}
+
+@media only screen and (min-width: 1px) and (max-width: 1023px){
+
+.desktop-nav {
+  display: none;
+}
+  
   
 }
