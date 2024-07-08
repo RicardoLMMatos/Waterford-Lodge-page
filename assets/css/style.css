@@ -550,6 +550,14 @@ ul li a:hover {
     width: auto;
     flex: none;
   }
+  /* Font sizes */
+  .welcome-logo {
+    font-size: 4rem;
+  }
+
+  .logo-single {
+    font-size: 7rem;
+  }
 
   /* Hero section */
 
@@ -562,9 +570,7 @@ ul li a:hover {
   letter-spacing: .2rem;
   }
 
-  .logo-single {
-    font-size: 7rem;
-  }
+  
   
 
   /* Mobile Nav */
