@@ -45,11 +45,101 @@
                                 <button class="btn"><a href="https://via.eviivo.com/WaterfordLodgeHotelNE61" target="_blank">Book a room</a></button>
                             </ul>
                         </nav>
+                    </div>                    
+                </div> 
+                 <!--burger menu-->
+                    <div class="mobile-nav">
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+                            aria-label="button to open mobile navigation">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="column mobile-nav">
+                    <a class="header-logo nav-logo" href="./index.html">W</a>
+                    <nav>
+                        <ul id="burger-menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="contact.html">Rooms</a></li>
+                            <li><a href="assets/images/main-menu.pdf" target="_blank">Functions</a></li>
+                            <li> <a href="assets/images/kids-menu.pdf" target="_blank">Carvery</a></li>
+                            <li> <a href="assets/images/christmas-menu.pdf" target="_blank">Menus</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>               
+            </div>
+        </div>
+    </header>
+
+    <!-- Contact hero -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="column column--50">
+                    <div class="welcome">
+                        <div class="contact-text">
+                            <br>
+                            <h2 class="logo-contact welcome-logo">Contact Us</h2>
+                            <br>
+                            <div class="break-line"></div>
+                            <p>
+                                The Waterford Lodge really is a great location, moments from the centre of town, and
+                                adjacent to the award winning Carlisle Park, an ideal location for wedding photography.
+
+                                This beautiful 18th century coaching inn has masses of character and charm. The
+                                Waterford
+                                Lodge Hotel is the perfect venue to celebrate your special occasion.
+
+                                Situated in the delightful market town of Morpeth, the Waterford Lodge really is a great
+                                location, moments from the centre of town.
+
+                                The Waterford Lodge has splendid accommodation, including our luxurious bridal suite
+                                with
+                                four poster bed. A choice of double, twin and family rooms is available, all fitted with
+                                en-suite facilities. It also has a fantastic restaurant and bar as well as a large and
+                                spacious function room.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    </section>
+
+
+     <!--Contact section-->
+     <section class="contact">
+        <div class="container contact-container">
+            <div class="row">
+                <div class="column column--50">
+                <div class="card contact-card">
+                    <h2 class="contact-h2">Get in touch with Us</h2>
+                    <div class="break-line"></div>
+
+                    <p>For general enquiries</p>
+                    <p> Call us on 01670512004</p>
+                    <br>
+                    <p>Email us</p>
+                    <p>enquiries@waterford-lodge.com</p>
+                    <button class="btn cards-btn"><a href="mailto:enquiries@waterford-lodge.com">Email Us</a></button>
+                </div>
+            </div>
+            <div class="column column--50">
+                <div class="card contact-card">
+                    <h2 class="contact-h2">Book a room</h2>
+                    <div class="break-line"></div>
+                    <p>To book directly</p>
+                    <p>Call us on</p>
+                    <p>01670512004</p>
+                    <br />
+                    <p> or book online</p>
+                    <button class="btn cards-btn"><a href="https://via.eviivo.com/WaterfordLodgeHotelNE61" target="_blank">Book online</a></button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
 
 
 
@@ -89,6 +179,18 @@
             </div>
         </div>
     </footer>
+
+         <!-- Javascript for the burger menu -->
+         <script>
+            function myFunction() {
+                var x = document.getElementById("burger-menu");
+                if (x.style.display === "flex") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "flex";
+                }
+            }
+        </script>
 
 
 
