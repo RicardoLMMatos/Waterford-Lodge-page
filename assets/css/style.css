@@ -570,6 +570,28 @@ ul li a:hover {
   letter-spacing: .2rem;
   }
 
+  .welcome-text {
+    max-width: 100%;
+   justify-content:center ;
+   text-align: center;
+   
+  }
+
+  .welcome-logo {
+    max-width: 100%;
+  }
+  
+  .function-text {
+    max-width: 100%;
+   justify-content:center ;
+   text-align: center;
+  
+  }
+
+  
+  
+  
+
   
   
 
