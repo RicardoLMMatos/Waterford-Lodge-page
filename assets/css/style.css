@@ -417,6 +417,20 @@ ul li a:hover {
   margin: 0.2rem;
 }
 
+.contact-card-page {
+  height: 70rem;
+}
+
+.google-map-contact {
+  height: 62rem;
+}  .contact-card-page {
+  border: 0;
+}
+
+.contact-h2-page {
+  max-width: 70%;
+}
+
 
 
 
