@@ -427,9 +427,18 @@ ul li a:hover {
   border: 0;
 }
 
-.contact-h2-page {
+ .contact-h2 {
+  color: #546270;
+} 
+
+.contact-card-page h2:nth-child(2){
+  margin-top: 4rem;
+}
+
+.contact p {
   max-width: 70%;
 }
+
 
 
 
