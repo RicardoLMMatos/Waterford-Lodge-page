@@ -374,6 +374,8 @@ ul li a:hover {
 .function-area {
   display: flex;
   justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .function-text {
@@ -392,6 +394,33 @@ ul li a:hover {
   object-fit: cover;
 }
 
+
+  /* Funtions area */
+
+  .function-header {
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+  }
+      .container-functions-photos{
+        position: relative;
+      }
+  
+      .function-photos-header{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+      }
+      .container-functions-photos img{
+        filter: brightness(55%);
+      }
+  
+   /* .container-functions-photos h1, */
+   .container-functions-photos p{
+    color: white;
+    }
+    
 /* Contact area */
 
 
@@ -430,14 +459,17 @@ ul li a:hover {
  .contact-h2 {
   color: #546270;
 } 
+/* 
+.contact-card-page h2:last-of-type{
+  margin-top: 4rem;
+} */
 
-.contact-card-page h2:nth-child(2){
+.contact-card-page button + h2{
   margin-top: 4rem;
 }
-
-.contact p {
+/* .contact p {
   max-width: 70%;
-}
+} */
 
 
 
@@ -544,11 +576,6 @@ ul li a:hover {
 .sunday-menu-link {
   color: #9e7739;
 }
-/* Funtions area */
-
-.function-header {
-  margin-top: 15rem;
-}
 
 /************************************* Media Queries ***************************************************************************/
 
@@ -611,8 +638,6 @@ ul li a:hover {
   
   }
 
-  
-  
   
 
   
@@ -752,3 +777,4 @@ ul li a:hover {
 
     }
   
+
