@@ -527,7 +527,7 @@ ul li a:hover {
 }
 
 
-/* Gallery area */
+/* Gallery page */
 
 .gallery {
   margin-top: 3rem;
@@ -551,7 +551,7 @@ ul li a:hover {
 }
 
 
-/* Carvery area */
+/* Carvery page */
 
 .Carvery-section {
   margin-top: 15rem;
@@ -573,13 +573,17 @@ ul li a:hover {
   margin: 0.2rem;
 }
 
-.sunday-menu-link {
+.menu-links {
   color: #9e7739;
+  text-decoration: underline;
 }
 
-.hero-image-carvery{
+.hero-carvery{
   background-image: url("../images/carvery-images/carv2.webp");
 }
+
+
+
 
 /************************************* Media Queries ***************************************************************************/
 
@@ -615,9 +619,6 @@ ul li a:hover {
 
   /* Hero section */
 
-  /* .hero-image {
-    max-height: 60rem;
-  } */
   .hero-text {
     font-size: 3rem;
   margin-bottom: 2rem;
