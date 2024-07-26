@@ -412,7 +412,7 @@ ul li a:hover {
         transform: translate(-50%, -50%);
         z-index: 1;
       }
-      .container-functions-photos img{
+      .container-functions-photos-hero img{
         filter: brightness(55%);
       }
   
@@ -575,6 +575,10 @@ ul li a:hover {
 
 .sunday-menu-link {
   color: #9e7739;
+}
+
+.hero-image-carvery{
+  background-image: url("../images/carvery-images/carv2.webp");
 }
 
 /************************************* Media Queries ***************************************************************************/
