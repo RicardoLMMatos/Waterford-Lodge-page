@@ -467,10 +467,6 @@ ul li a:hover {
 .contact-card-page button + h2{
   margin-top: 4rem;
 }
-/* .contact p {
-  max-width: 70%;
-} */
-
 
 
 
@@ -553,14 +549,14 @@ ul li a:hover {
 
 /* Carvery page */
 
-.Carvery-section {
-  margin-top: 15rem;
+.hero-carvery{
+  background-image: url("../images/carvery-images/carv2.webp");
+  filter: brightness(55%);
 }
 
 .carvery-card {
   margin: 0.5rem;
   color:#546270;
-  /* border: 0.2rem solid  rgb(197, 157, 95); */
 }
 
 .carvery-card h2 {
@@ -576,10 +572,6 @@ ul li a:hover {
 .menu-links {
   color: #9e7739;
   text-decoration: underline;
-}
-
-.hero-carvery{
-  background-image: url("../images/carvery-images/carv2.webp");
 }
 
 
