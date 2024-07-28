@@ -575,6 +575,16 @@ ul li a:hover {
 }
 
 
+/* Rooms poage */
+
+.hero-accommodation{
+  background-image: url("../images/acom.jpg");
+  /* filter: brightness(55%); */
+}
+
+
+
+
 
 
 /************************************* Media Queries ***************************************************************************/
