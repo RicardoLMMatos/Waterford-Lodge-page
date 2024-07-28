@@ -584,7 +584,9 @@ ul li a:hover {
   font-weight: bold;
   transition: color 0.25s ease-out;
 }
-
+.close:hover {
+  color: rgb(197, 157, 95);
+}
 
 /* Carvery page */
 
