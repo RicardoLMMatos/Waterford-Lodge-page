@@ -551,7 +551,7 @@ ul li a:hover {
 
 .hero-carvery{
   background-image: url("../images/carvery-images/carv2.webp");
-  filter: brightness(55%);
+  /* filter: brightness(55%); */
 }
 
 .carvery-card {
