@@ -2,6 +2,21 @@
 //This piece of javascript code was copied from w3schools website and modified by me
 $(document).ready(function () {
 
+  const mobileNav = document.getElementById('mobileNav');
+  mobileNav.addEventListener('click', function(){
+      var x = document.getElementById("burger-menu");
+      if (x.style.display === "flex") {
+          x.style.display = "none";
+      } else {
+          x.style.display = "flex";
+      }
+  })
+
+window.onscroll = function() {
+    scrollFunction()
+};
+
+
   class SlickSlider {
      // Current arguments are '.function-photos-slick' + the slick args object
     constructor(selector, options) {
