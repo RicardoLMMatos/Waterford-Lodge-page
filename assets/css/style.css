@@ -170,10 +170,6 @@ ul li a:hover {
     text-decoration:underline;
   }
   
-  .header .nav-active {
-
-  }
-  
   
   .room-booking {
     background-color: rgb(197, 157, 95);
@@ -398,7 +394,6 @@ ul li a:hover {
   /* Funtions area */
 
   .function-header {
-    margin-top: 10rem;
     margin-bottom: 3rem;
   }
       .container-functions-photos{
@@ -583,6 +578,7 @@ ul li a:hover {
   font-size: 40px;
   font-weight: bold;
   transition: color 0.25s ease-out;
+  cursor: pointer;
 }
 .close:hover {
   color: rgb(197, 157, 95);
@@ -614,6 +610,16 @@ ul li a:hover {
   color: #9e7739;
   text-decoration: underline;
 }
+
+
+/* Rooms poage */
+
+.hero-accommodation{
+  background-image: url("/assets/images/acom.jpg");
+  /* filter: brightness(55%); */
+}
+
+
 
 
 
