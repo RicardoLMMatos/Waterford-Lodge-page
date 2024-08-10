@@ -338,7 +338,7 @@ ul li a:hover {
 }
 
 .acom-card {
-  background-image: url(../images/acom.jpg);
+  background-image: url(../images/acom-images/accom-hero.webp);
 }
 
 .food-card {
@@ -615,8 +615,7 @@ ul li a:hover {
 /* Rooms poage */
 
 .hero-accommodation{
-  background-image: url("/assets/images/acom.jpg");
-  /* filter: brightness(55%); */
+  background-image: url("/assets/images/acom-images/accom-hero.webp");
 }
 
 
