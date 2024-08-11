@@ -139,13 +139,16 @@ ul li a:hover {
 
 /* Navbar*/
 .header{
-  background-color: #546270;
   width: 100%;
   position: fixed;
   z-index: 999;
   top: 0;
   left: 0;
   right: 0;
+  transition: all 0.5s;
+}
+
+.header-scroll {
   background-color: #546270;
   box-shadow: 5px 1px 12px -2px black;
 }
@@ -183,6 +186,7 @@ ul li a:hover {
     padding: 1rem;
     display: inline-block;
     transition: color .25s ease-in-out;
+    font-size: 2rem;
   }
   
 
@@ -224,14 +228,6 @@ ul li a:hover {
 }
 
 
-
-
-
-
-
-
-
-
 /* Hero section */
 
 .hero-image {
@@ -247,6 +243,8 @@ ul li a:hover {
   left: 0;
   background-size: cover;
   z-index: -1;
+  filter: brightness(0.5);
+  
 
 
 }
