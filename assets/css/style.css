@@ -189,6 +189,40 @@ ul li a:hover {
     font-size: 2rem;
   }
   
+  /*Nav bar dropdown menu*/
+.desktop-nav .dropbtn {
+  font-family: 'Montserrat', serif;
+  color: #fafafa;
+  font-size: inherit;
+  font-family: "Sedan", 'Montserrat', serif;
+  border: none;
+  text-align: center;
+  background-color: transparent;
+}
+
+.desktop-nav .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.desktop-nav .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 1.6rem;
+}
+
+.dropdown-js {
+  color: #546270;
+}
+
+.desktop-nav .dropdown-content a {
+  text-decoration: none;
+  display: block;
+}
+
+.desktop-nav .dropdown:hover .dropdown-content {
+  display: block;
+}
 
   
   @media only screen and (min-width: 1024px){
