@@ -211,10 +211,6 @@ ul li a:hover {
   min-width: 1.6rem;
 }
 
-.dropdown-js {
-  color: #546270;
-}
-
 .desktop-nav .dropdown-content a {
   text-decoration: none;
   display: block;
