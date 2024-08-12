@@ -1,3 +1,5 @@
+// js code for slick carrousel
+
 $(document).ready(function () {
 
   let $reviewsSlick = $('.function-photos-slick');
@@ -14,6 +16,8 @@ $(document).ready(function () {
  
 });
 
+// js code for nav bar colour change on scroll
+
 let headerEl = document.querySelector(".header");
 window.addEventListener("scroll", () => {
 if (window.scrollY > 50) {
@@ -22,4 +26,6 @@ if (window.scrollY > 50) {
 else if (window.scrollY <=50 ) {
   headerEl.classList.remove("header-scroll")
 }
+
+
 });

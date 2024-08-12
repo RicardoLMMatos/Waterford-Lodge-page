@@ -452,10 +452,6 @@ ul li a:hover {
  .contact-h2 {
   color: #546270;
 } 
-/* 
-.contact-card-page h2:last-of-type{
-  margin-top: 4rem;
-} */
 
 .contact-card-page button + h2{
   margin-top: 4rem;
@@ -681,8 +677,6 @@ ul li a:hover {
 
   
 
-  
-  
 
   /* Mobile Nav */
   .desktop-nav {
@@ -691,8 +685,12 @@ ul li a:hover {
       .header ul {
         padding-bottom: 20px;
         display: flex;
-        flex-direction: column;
-      
+        flex-direction: column;           
+  }
+
+  .header {
+    background-color: #546270;
+    box-shadow: 5px 1px 12px -2px black;
   }
   
 }
@@ -743,8 +741,12 @@ ul li a:hover {
     .mobile-nav #burger-menu {
       display: none;
     }
-  
 
+    .header {
+      background-color: #546270;
+      box-shadow: 5px 1px 12px -2px black;
+    }
+  
 }
 
 /* Desktop */
