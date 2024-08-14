@@ -27,8 +27,8 @@
 
 <body>
 
-    <!--Header-->
-    <header class="header">
+     <!--Header-->
+     <header class="header">
         <div class="container">
             <div class="row nav-desk nav-fixed nav-active">
                 <div class="column">
@@ -40,36 +40,45 @@
                                 <li><a href="./rooms.html">Rooms</a></li>
                                 <li><a href="./functions.html">Functions</a></li>
                                 <li><a href="./carvery.html">Carvery</a></li>
-                                <li><a href="">Menus</a></li>
+                                <li class="dropdown-menu dropdown-js">
+                                    <div class="dropdown dropdown-js">
+                                        <button class="dropbtn">Our Menus</button>
+                                        <div class="dropdown-content">
+                                            <a href="assets/menus/Waterford Menu-2024.pdf" target="_blank">Bar menu</a>
+                                            <a href="assets/menus/" target="_blank">Sunday menu</a>
+                                        </div>
+                                    </div>
+                                </li>
                                 <li><a href="./contact.html">Contact us</a></li>
-                                <button class="btn"><a href="https://via.eviivo.com/WaterfordLodgeHotelNE61"
-                                        target="_blank">Book a room</a></button>
+                                <button class="btn"><a href="https://via.eviivo.com/WaterfordLodgeHotelNE61" target="_blank">Book a room</a></button>
                             </ul>
                         </nav>
+                    </div>                    
+                </div> 
+                 <!--burger menu-->
+                    <div class="mobile-nav">
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+                            aria-label="button to open mobile navigation">
+                            <i class="fa fa-bars"></i>
+                        </a>
                     </div>
                 </div>
-                <!--burger menu-->
-                <div class="mobile-nav">
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"
-                        aria-label="button to open mobile navigation">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                </div>
+                <div class="column mobile-nav">
+                    <a class="header-logo nav-logo" href="./index.html">W</a>
+                    <nav>
+                        <ul id="burger-menu">
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./rooms.html">Rooms</a></li>
+                            <li><a href="./functions.html" target="_blank">Functions</a></li>
+                            <li> <a href="./carvery.html" target="_blank">Carvery</a></li>
+                            <li> <a href="./assets/menus/Waterford Menu-2024.pdf" target="_blank">Bar food</a>
+                                <li> <a href="./assets/menus/Waterford Menu-2024.pdf" target="_blank">Bar food</a>
+                            </li>
+                            <li><a href="./contact.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>               
             </div>
-            <div class="column mobile-nav">
-                <a class="header-logo nav-logo" href="./index.html">W</a>
-                <nav>
-                    <ul id="burger-menu">
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./rooms.html">Rooms</a></li>
-                        <li><a href="./functions.html" target="_blank">Functions</a></li>
-                        <li> <a href="./carvery.html" target="_blank">Carvery</a></li>
-                        <li> <a href="./index.html" target="_blank">Menus</a></li>
-                        <li><a href="./contact.html">Contact Us</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
         </div>
     </header>
 
