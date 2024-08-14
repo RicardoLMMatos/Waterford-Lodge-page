@@ -281,7 +281,7 @@ ul li a:hover {
 
 .hero-outer {
   position: relative;
-  height: 70vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   margin-bottom: 5rem;
