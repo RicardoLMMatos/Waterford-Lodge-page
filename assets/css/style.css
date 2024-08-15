@@ -262,7 +262,7 @@ ul li a:hover {
 
 .hero-image {
   background-color: #546270;
-  background-image: url("../images/hero1.jpg");
+  background-image: url("../images/hero1.webp");
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
@@ -370,11 +370,11 @@ ul li a:hover {
 }
 
 .food-card {
-  background-image: url(../images/food.jpg);
+  background-image: url(../images/food.webp);
 }
 
 .funct-card {
-  background-image: url(../images/func1.jpg);
+  background-image: url(../images/func1.webp);
 }
 
 .card p {
