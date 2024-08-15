@@ -29,4 +29,3 @@ else if (window.scrollY <=50 ) {
 
 
 });
-
