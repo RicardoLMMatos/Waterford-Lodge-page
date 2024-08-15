@@ -704,7 +704,11 @@ ul li a:hover {
    text-align: center;
   
   }
+  /* cards */
 
+  .contact-card-mobile {
+    height: 40vh;
+  }
   
 
 
