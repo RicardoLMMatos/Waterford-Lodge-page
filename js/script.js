@@ -29,3 +29,16 @@ else if (window.scrollY <=50 ) {
 
 
 });
+
+ // Javascript for the burger menu 
+      
+     
+        function myFunction() {
+            var x = document.getElementById("burger-menu");
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "flex";
+            }
+        }
+    

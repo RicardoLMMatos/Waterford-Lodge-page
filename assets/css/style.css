@@ -138,6 +138,7 @@ ul li a:hover {
 
 
 /* Navbar*/
+
 .header{
   width: 100%;
   position: fixed;
@@ -190,8 +191,8 @@ ul li a:hover {
   }
   
   /*Nav bar dropdown menu*/
+  
 .desktop-nav .dropbtn {
-  font-family: 'Montserrat', serif;
   color: #fafafa;
   font-size: inherit;
   font-family: "Sedan", 'Montserrat', serif;
@@ -206,6 +207,7 @@ ul li a:hover {
 }
 
 .desktop-nav .dropdown-content {
+  padding-top: 3rem;
   display: none;
   position: absolute;
   min-width: 1.6rem;
