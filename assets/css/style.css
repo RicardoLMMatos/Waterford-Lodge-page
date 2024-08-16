@@ -153,6 +153,9 @@ ul li a:hover {
   background-color: #546270;
   box-shadow: 5px 1px 12px -2px black;
 }
+.header-scroll .dropdown-content{
+  background-color: #546270;
+}
 .header ul {
   width: 100%;
 }
