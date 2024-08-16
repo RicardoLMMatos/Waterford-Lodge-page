@@ -364,7 +364,6 @@ ul li a:hover {
   margin: 0.5rem;
   color: #fff;
   letter-spacing: .2rem;
-  padding: 25%;
 }
 
 .carv-card {
@@ -713,9 +712,8 @@ ul li a:hover {
   /* cards */
 
   .contact-card-mobile {
-    height: 40vh;
+    height: 60vh;
   }
-  
 
 
   /* Mobile Nav */
