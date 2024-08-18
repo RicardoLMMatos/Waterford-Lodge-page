@@ -34,6 +34,8 @@ h2 {
 
 h3 {
   font-size: 2rem;
+}.numbers-font {
+  font-family: 'Montserrat', serif;
 }
 
 /* Grid system */
@@ -94,6 +96,10 @@ h3 {
   background-size: cover;
   text-align: center;
 
+}
+
+.contact-card {
+  padding: 2rem;
 }
 
 
@@ -681,6 +687,7 @@ ul li a:hover {
     font-size: 7rem;
   }
 
+
   /* Hero section */
 
   .hero-text {
@@ -709,12 +716,12 @@ ul li a:hover {
   /* cards */
 
   .contact-card-mobile {
-    height: 50vh;
     margin-top: 2rem;
+    padding: 2rem;
     
   }
-
-
+  
+ 
   /* Mobile Nav */
   .desktop-nav {
     display: none !important;
@@ -729,7 +736,10 @@ ul li a:hover {
     background-color: #546270;
     box-shadow: 5px 1px 12px -2px black;
   }
-  
+
+  .nav-logo {
+    padding-left: 1rem;
+  }
 }
 
 /* Tablet */
@@ -761,6 +771,10 @@ ul li a:hover {
     }
     
     /* Nav bar */
+    
+    .nav-logo {
+      padding-left: 1rem;
+    }
     .desktop-nav {
       display: none !important;
     }
