@@ -36,6 +36,8 @@ h3 {
   font-size: 2rem;
 }.numbers-font {
   font-family: 'Montserrat', serif;
+  color: inherit;
+  text-decoration: none;
 }
 
 /* Grid system */
