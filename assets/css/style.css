@@ -444,14 +444,12 @@ ul li a:hover {
         filter: brightness(55%);
       }
   
-   /* .container-functions-photos h1, */
    .container-functions-photos p{
     color: white;
     }
     
+
 /* Contact area */
-
-
 
 .contact {
   margin-top: 3.5rem; 
@@ -617,7 +615,6 @@ ul li a:hover {
 
 .hero-carvery{
   background-image: url("../images/carvery-images/carv2.webp");
-  /* filter: brightness(55%); */
 }
 
 .carvery-card {
@@ -713,8 +710,8 @@ ul li a:hover {
 
   .contact-card-mobile {
     height: 50vh;
-    margin-top: 4rem;
-    padding-top: rem;
+    margin-top: 2rem;
+    
   }
 
 
