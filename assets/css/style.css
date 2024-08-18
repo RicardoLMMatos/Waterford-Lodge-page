@@ -34,9 +34,11 @@ h2 {
 
 h3 {
   font-size: 2rem;
-}.numbers-font {
+}
+
+.numbers-font {
   font-family: 'Montserrat', serif;
-  color: inherit;
+  color:#546270;
   text-decoration: none;
 }
 
