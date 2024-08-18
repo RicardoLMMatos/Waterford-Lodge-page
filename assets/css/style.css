@@ -453,6 +453,7 @@ ul li a:hover {
       }
       .container-functions-photos-hero img{
         filter: brightness(55%);
+        height: 100vh;
       }
   
    .container-functions-photos p{
@@ -721,6 +722,10 @@ ul li a:hover {
    justify-content:center ;
    text-align: center;
   
+  }
+
+.function-hero {
+    height : 100vh;
   }
   /* cards */
 
