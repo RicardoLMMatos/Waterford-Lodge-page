@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +15,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <!--Favicon icon link-->
-    <link rel="icon" type="image/png" sizes="64x64" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
     <!--Slick css links-->
     <link href="assets/css/slick.css" rel="stylesheet" type="text/css">
     <link href="assets/css/slick-theme.css" rel="stylesheet" type="text/css">
@@ -25,8 +26,7 @@
     <title>The Waterford lodge</title>
 </head>
 
-<>
-
+<body>
 
     <!--Header-->
     <header class="header">
@@ -41,35 +41,47 @@
                                 <li><a href="./rooms.html">Rooms</a></li>
                                 <li><a href="./functions.html">Functions</a></li>
                                 <li><a href="./carvery.html">Carvery</a></li>
-                                <li><a href="">Menus</a></li>
+                                <li class="dropdown-menu">
+                                    <div class="dropdown">
+                                        <button class="dropbtn">Our Menus</button>
+                                        <div class="dropdown-content">
+                                            <a href="./menus/Waterford Menu-2024.pdf" target="_blank">Bar menu</a>
+                                            <a href="./menus/2024 Carvery menu.pdf" target="_blank">Sunday menu</a>
+                                        </div>
+                                    </div>
+                                </li>
                                 <li><a href="./contact.html">Contact us</a></li>
-                                <button class="btn"><a href="https://via.eviivo.com/WaterfordLodgeHotelNE61" target="_blank">Book a room</a></button>
+                                <button class="btn"><a href="https://via.eviivo.com/WaterfordLodgeHotelNE61"
+                                        target="_blank">Book a room</a></button>
                             </ul>
                         </nav>
-                    </div>                    
-                </div> 
-                 <!--burger menu-->
-                    <div class="mobile-nav">
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()"
-                            aria-label="button to open mobile navigation">
-                            <i class="fa fa-bars"></i>
-                        </a>
                     </div>
                 </div>
-                <div class="column mobile-nav">
-                    <a class="header-logo nav-logo" href="./index.html">W</a>
-                    <nav>
-                        <ul id="burger-menu">
-                            <li><a href="./index.html">Home</a></li>
-                            <li><a href="./rooms.html">Rooms</a></li>
-                            <li><a href="./functions.html" target="_blank">Functions</a></li>
-                            <li> <a href="./carvery.html" target="_blank">Carvery</a></li>
-                            <li> <a href="./index.html" target="_blank">Menus</a></li>
-                            <li><a href="./contact.html">Contact Us</a></li>
-                        </ul>
-                    </nav>
-                </div>               
             </div>
+        </div>
+        <!--burger menu-->
+        <div class="mobile-nav">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+                aria-label="button to open mobile navigation">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        </div>
+        <div class="column mobile-nav">
+            <a class="header-logo nav-logo" href="./index.html">W</a>
+            <nav>
+                <ul id="burger-menu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./rooms.html">Rooms</a></li>
+                    <li><a href="./functions.html" target="_blank">Functions</a></li>
+                    <li> <a href="./carvery.html" target="_blank">Carvery</a></li>
+                    <li> <a href="./menus/Waterford Menu-2024.pdf" target="_blank">Bar food menu</a>
+                    </li>
+                    <li><a href="./contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
         </div>
     </header>
 
@@ -87,7 +99,7 @@
             </div>
         </div>
     </div>
-    
+
 
     <!--Welcome section-->
     <section class="welcome-section">
@@ -97,25 +109,43 @@
                     <div class="welcome">
                         <div class="welcome-text">
                             <br>
-                            <h2 class="logo-contact welcome-logo">About the Waterford Lodge</h2>
+                            <h2 class="logo-contact welcome-logo">
+                                Welcome to the Waterford Lodge
+                            </h2>
+                            <h3>A Timeless 18th Century Retreat in Morpeth
+                                </h2>
+                            </h3>
                             <br>
                             <div class="break-line"></div>
                             <p>
-                                The Waterford Lodge really is a great location, moments from the centre of town, and
-                                adjacent to the award winning Carlisle Park, an ideal location for wedding photography.
+                                Step into the Waterford Lodge, a beautifully preserved 18th-century coaching inn that
+                                exudes charm and character.
+                                Situated in the heart of Morpeth, this historic gem offers a perfect blend of tradition
+                                and modern comfort. Located just a stone's throw from the vibrant town center and the
+                                award-winning Carlisle Park,
+                                it's an idyllic setting for any occasion, including picture-perfect wedding photography.
 
-                                This beautiful 18th century coaching inn has masses of character and charm. The
-                                Waterford
-                                Lodge Hotel is the perfect venue to celebrate your special occasion.
+                            </p>
+                            <br>
+                            <p>
+                                Our pub is designed to cater to every guest's needs, whether you're here to enjoy a
+                                handcrafted cocktail,
+                                savor a pint of expertly poured draught beer, or cheer on your favorite team during a
+                                big match. With a diverse drinks menu that includes a wide range of beers,
+                                creative cocktails, and premium spirits, you're sure to find your favorite tipple in a
+                                welcoming and stylish atmosphere. And with four large screens strategically
+                                placed around the venue, you won't miss a moment of any major sporting event.
 
-                                Situated in the delightful market town of Morpeth, the Waterford Lodge really is a great
-                                location, moments from the centre of town.
+                            </p>
+                            <br>
+                            <p>
+                                The Waterford Lodge also offers elegant accommodation for those looking to extend their
+                                stay.
+                                Our luxurious bridal suite, featuring a romantic four-poster bed, is perfect for
+                                newlyweds. We also provide a choice of double, twin, and family rooms,
+                                all thoughtfully designed with en-suite facilities to ensure a comfortable and memorable
+                                visit.
 
-                                The Waterford Lodge has splendid accommodation, including our luxurious bridal suite
-                                with
-                                four poster bed. A choice of double, twin and family rooms is available, all fitted with
-                                en-suite facilities. It also has a fantastic restaurant and bar as well as a large and
-                                spacious function room.
                             </p>
                         </div>
                     </div>
@@ -129,34 +159,38 @@
         <div class="container">
             <div class="row">
                 <div class="column column--50">
-                <div class="card offers-card acom-card">
-                    <h2>Rooms</h2>
-                    <hr>
-                    <p>Book a room with us</p>
-                    <button class="btn cards-btn"><a href="https://via.eviivo.com/WaterfordLodgeHotelNE61" target="_blank">Book a Room</a></button>
+                    <div class="card offers-card acom-card">
+                        <h2>Rooms</h2>
+                        <hr>
+                        <p>Book a room with us</p>
+                        <button class="btn cards-btn"><a href="https://via.eviivo.com/WaterfordLodgeHotelNE61"
+                                target="_blank">Book a Room</a></button>
+                    </div>
                 </div>
-            </div>
-            <div class="column column--50">
-                <div class="card offers-card funct-card">
-                    <h2>Functions</h2>
-                    <p>Find out more about our function room</p>
-                    <button class="btn cards-btn">Find out more</button>
-                </div>
-            </div>
                 <div class="column column--50">
-                <div class="card offers-card carv-card">
-                    <h2>Sunday Carvery</h2>
-                    <p>Find out more about our Sunday carvery</p>
-                    <button class="btn cards-btn"><a href="/carvery.html">Find out more</a></button>
+                    <div class="card offers-card funct-card">
+                        <h2>Functions</h2>
+                        <p>Find out more about our function room</p>
+                        <button class="btn cards-btn"><a href="./functions.html" target="_blank">Find out
+                                more</button></a>
+                    </div>
                 </div>
-            </div>
                 <div class="column column--50">
-                <div class="card offers-card food-card">
-                    <h2>Pub and Food</h2>
-                    <p>Find out more about our food</p>
-                    <button class="btn cards-btn">Find out more</button>
+                    <div class="card offers-card carv-card">
+                        <h2>Sunday Carvery</h2>
+                        <p>Find out more about our Sunday carvery</p>
+                        <button class="btn cards-btn"><a href="./carvery.html" target="_blank">Find out
+                                more</button></a>
+                    </div>
                 </div>
-            </div>
+                <div class="column column--50">
+                    <div class="card offers-card food-card">
+                        <h2>Pub and Food</h2>
+                        <p>Find out more about our food</p>
+                        <button class="btn cards-btn"><a href="./menus/Waterford Menu-2024.pdf" target="_blank">See our
+                                menus</button></a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -171,12 +205,31 @@
                             <h2 class="logo-contact welcome-logo">Our Function room</h2>
                             <br>
                             <div class="break-line"></div>
-                            <p>moments from the centre of town, and
-                                adjacent to the award winning Carlisle Park, an ideal location for wedding photography.
-                                This beautiful 18th century coaching inn has masses of character and charm. The
-                                Waterford
-                                Lodge Hotel is the perfect venue to celebrate your special occasion.
+                            <p>
+                                Whether you're planning a wedding, birthday, or any other celebration, the Waterford
+                                Lodge is the perfect venue.
+                                <br>
+                                Our beautiful function room, with a capacity of up to 150 guests, has everything you
+                                need to make your day truly special. The function area also features a private bar and a
+                                spacious outdoor area, available for hire at an additional cost.
+                                <br>
+                                Here's a more polished version of your text:
+
+                                Whether you're planning a wedding, birthday, or any other celebration, the Waterford
+                                Lodge is the perfect venue. Our beautiful function room, with a capacity of up to 150
+                                guests, has everything you need to make your day truly special. The function area also
+                                features a private bar and a spacious outdoor area, available for hire at an additional
+                                cost.
+
+                                We cater to all types of events, with our dedicated kitchen team ensuring your occasion
+                                is unforgettable. Whether you prefer a three-course meal or a buffet, our chefs will
+                                make sure every detail is perfect. Additionally, we offer a variety of drinks packages,
+                                so you can choose the ideal beverages to complement your event.
                             </p>
+                            <br>
+                            <a href="./functions.html" target="_blank">
+                                <h3 class="menu-links">Visit the functions and events page</h3>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -187,27 +240,27 @@
                 <div class="column">
                     <div class="function-photos-slick">
                         <div>
-                            <img class="function-photos" src="./assets/images/function-images/func3.jpg"
+                            <img class="function-photos" src="./assets/images/function-images/func3.webp"
                                 alt="function room">
                         </div>
                         <div>
-                            <img class="function-photos" src="./assets/images/function-images/func4.jpg"
+                            <img class="function-photos" src="./assets/images/function-images/func4.webp"
                                 alt="function room">
                         </div>
                         <div>
-                            <img class="function-photos" src="./assets/images/function-images/func5.jpg"
+                            <img class="function-photos" src="./assets/images/function-images/func5.webp"
                                 alt="function room">
                         </div>
                         <div>
-                            <img class="function-photos" src="./assets/images/function-images/func6.jpg"
+                            <img class="function-photos" src="./assets/images/function-images/func6.webp"
                                 alt="function room">
                         </div>
                         <div>
-                            <img class="function-photos" src="./assets/images/function-images/func7.jpg"
+                            <img class="function-photos" src="./assets/images/function-images/func7.webp"
                                 alt="function room">
                         </div>
                         <div>
-                            <img class="function-photos" src="./assets/images/function-images/func8.jpg"
+                            <img class="function-photos" src="./assets/images/function-images/func8.webp"
                                 alt="function room">
                         </div>
                     </div>
@@ -216,37 +269,37 @@
         </div>
     </section>
 
-
     <!--Contact section-->
     <section class="contact">
         <div class="container contact-container">
             <div class="row">
                 <div class="column column--50">
-                <div class="card contact-card">
-                    <h2 class="contact-h2">Get in touch with Us</h2>
-                    <div class="break-line"></div>
-
-                    <p>For general enquiries</p>
-                    <p> Call us on 01670512004</p>
-                    <br>
-                    <p>Email us</p>
-                    <p>enquiries@waterford-lodge.com</p>
-                    <button class="btn cards-btn"><a href="mailto:enquiries@waterford-lodge.com">Email Us</a></button>
+                    <div class="card contact-card">
+                        <h2 class="contact-h2">Get in touch with us</h2>
+                        <div class="break-line"></div>
+                        <p>For general enquiries</p>
+                        <p> Call us on 01670512004</p>
+                        <br>
+                        <p>Email us</p>
+                        <p>enquiries@waterford-lodge.com</p>
+                        <button class="btn cards-btn"><a href="mailto:enquiries@waterford-lodge.com">Email
+                                Us</a></button>
+                    </div>
+                </div>
+                <div class="column column--50">
+                    <div class="card contact-card">
+                        <h2 class="contact-h2">Book a room</h2>
+                        <div class="break-line"></div>
+                        <p>To book directly</p>
+                        <p>Call us on</p>
+                        <p>01670512004</p>
+                        <br />
+                        <p> or book online</p>
+                        <button class="btn cards-btn"><a href="https://via.eviivo.com/WaterfordLodgeHotelNE61"
+                                target="_blank">Book online</a></button>
+                    </div>
                 </div>
             </div>
-            <div class="column column--50">
-                <div class="card contact-card">
-                    <h2 class="contact-h2">Book a room</h2>
-                    <div class="break-line"></div>
-                    <p>To book directly</p>
-                    <p>Call us on</p>
-                    <p>01670512004</p>
-                    <br />
-                    <p> or book online</p>
-                    <button class="btn cards-btn"><a href="https://via.eviivo.com/WaterfordLodgeHotelNE61" target="_blank">Book online</a></button>
-                </div>
-            </div>
-        </div>
         </div>
     </section>
 
@@ -262,19 +315,22 @@
     <footer class="footer">
         <div class="container">
             <div class="row align-centre space-between">
-                <div class="column column--dshrink">     
-                    <p class="footer-logo">W</p></div>
+                <div class="column column--dshrink">
+                    <p class="footer-logo">W</p>
+                </div>
                 <div class="column column--dshrink">
                     <nav class="footer-nav">
                         <ul>
-                       
+
                             <li><a href="./index.html">Home</a></li>
                             <li><a href="./contact.html">Contact</a></li>
-                            <li><a class="social-networks" href="https://www.facebook.com" target="_blank" aria-label="link to go to our facebook page">
-                                <i class="fab fa-facebook"></i></a></li>
-                            <li><a class="social-networks" href="https://www.instagram.com" target="_blank" aria-label="link to go to our instagram page">
-                                <i class="fab fa-instagram"></i></a></li>
-                    
+                            <li><a class="social-networks" href="https://www.facebook.com/WaterfordLodgeHotel"
+                                    target="_blank" aria-label="link to go to our facebook page">
+                                    <i class="fab fa-facebook"></i></a></li>
+                            <li><a class="social-networks" href="https://www.instagram.com/thewaterfordlodge/"
+                                    target="_blank" aria-label="link to go to our instagram page">
+                                    <i class="fab fa-instagram"></i></a></li>
+
                         </ul>
                     </nav>
                 </div>
@@ -287,22 +343,13 @@
         </div>
     </footer>
 
-    <!--js-->
+
+    <!--js links-->
+
     <script src="//code.jquery.com/jquery-3.6.2.min.js" defer></script>
     <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
     <script src="js/script.js" defer></script>
 
-        <!-- Javascript for the burger menu -->
-        <script>
-            function myFunction() {
-                var x = document.getElementById("burger-menu");
-                if (x.style.display === "flex") {
-                    x.style.display = "none";
-                } else {
-                    x.style.display = "flex";
-                }
-            }
-        </script>
-
 </body>
+
 </html>

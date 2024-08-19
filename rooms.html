@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +15,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <!--Favicon icon link-->
-    <link rel="icon" type="image/png" sizes="64x64" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
     <!--Slick css links-->
     <link href="assets/css/slick.css" rel="stylesheet" type="text/css">
     <link href="assets/css/slick-theme.css" rel="stylesheet" type="text/css">
@@ -40,41 +41,202 @@
                                 <li><a href="./rooms.html">Rooms</a></li>
                                 <li><a href="./functions.html">Functions</a></li>
                                 <li><a href="./carvery.html">Carvery</a></li>
-                                <li><a href="">Menus</a></li>
+                                <li class="dropdown-menu">
+                                    <div class="dropdown">
+                                        <button class="dropbtn">Our Menus</button>
+                                        <div class="dropdown-content">
+                                            <a href="./menus/Waterford Menu-2024.pdf" target="_blank">Bar menu</a>
+                                            <a href="./menus/2024 Carvery menu.pdf" target="_blank">Sunday menu</a>
+                                        </div>
+                                    </div>
+                                </li>
                                 <li><a href="./contact.html">Contact us</a></li>
-                                <button class="btn"><a href="https://via.eviivo.com/WaterfordLodgeHotelNE61" target="_blank">Book a room</a></button>
+                                <button class="btn"><a href="https://via.eviivo.com/WaterfordLodgeHotelNE61"
+                                        target="_blank">Book a room</a></button>
                             </ul>
                         </nav>
-                    </div>                    
-                </div> 
-                 <!--burger menu-->
-                    <div class="mobile-nav">
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()"
-                            aria-label="button to open mobile navigation">
-                            <i class="fa fa-bars"></i>
-                        </a>
                     </div>
                 </div>
-                <div class="column mobile-nav">
-                    <a class="header-logo nav-logo" href="./index.html">W</a>
-                    <nav>
-                        <ul id="burger-menu">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="contact.html">Rooms</a></li>
-                            <li><a href="assets/images/main-menu.pdf" target="_blank">Functions</a></li>
-                            <li> <a href="assets/images/kids-menu.pdf" target="_blank">Carvery</a></li>
-                            <li> <a href="assets/images/christmas-menu.pdf" target="_blank">Menus</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                    </nav>
-                </div>               
             </div>
+        </div>
+        <!--burger menu-->
+        <div class="mobile-nav">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+                aria-label="button to open mobile navigation">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        </div>
+        <div class="column mobile-nav">
+            <a class="header-logo nav-logo" href="./index.html">W</a>
+            <nav>
+                <ul id="burger-menu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./rooms.html">Rooms</a></li>
+                    <li><a href="./functions.html" target="_blank">Functions</a></li>
+                    <li> <a href="./carvery.html" target="_blank">Carvery</a></li>
+                    <li> <a href="./menus/Waterford Menu-2024.pdf" target="_blank">Bar food menu</a>
+                    </li>
+                    <li><a href="./contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
         </div>
     </header>
 
+    <!--Hero section-->
 
+    <div class="hero-outer">
+        <div class="opaque-overlay"></div>
+        <div class="hero-image hero-accommodation hero-zoom"></div>
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <div class="hero-text">
+                        <h1><span class="logo-single">A</span>ccommodation</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Carvery section-->
+
+    <section class="Carvery-section">
+        <div class="container">
+            <div class="row">
+                <div class="column column--50">
+                    <div class="welcome">
+                        <div class="welcome-text">
+                            <br>
+                            <h1 class="logo-contact welcome-logo">Our rooms</h1>
+                            <br>
+                            <div class="break-line"></div>
+                            <p>
+                                Located in the heart of Morpeth with excellent transport links to Newcastle, the
+                                Waterford
+                                offers a convenient and comfortable stay. We have seventeen rooms available, including
+                                doubles,
+                                family rooms, and even a bridal suite, all featuring en-suite bathrooms, tea and coffee
+                                making
+                                facilities, and televisions.
+                            </p>
+                            <br>
+                            <p>To start your day, we provide a choice of freshly cooked full English or continental
+                                breakfast options.
+                                Lunch and dinner are served from Monday to Saturday, and on Sundays, you can enjoy our
+                                popular carvery.
+                            </p>
+                            <br>
+                            <p>If you're a dog lover like us, you'll be pleased to know that some of our rooms are
+                                dog-friendly,
+                                allowing you to bring your furry friends along for an additional £15 per night for the
+                                first dog
+                                and £5 per night for each additional dog.
+                            </p>
+                            <br>
+                            <P>We also offer a laundry service upon request for an extra charge.</P>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Functions photos-->
+
+    <section class="function-photos">s
+        <div class="container-functions-photos">
+            <div class="row">
+                <div class="column">
+                    <div class="function-photos-slick">
+                        <div>
+                            <img class="function-photos" src="./assets/images/acom-images/IMG-20240818-WA0009-1.webp"
+                                alt="room photo">
+                        </div>
+                        <div>
+                            <img class="function-photos" src="./assets/images/acom-images/IMG-20240818-WA0011.webp"
+                                alt="room photo">
+                        </div>
+                        <div>
+                            <img class="function-photos" src="./assets/images/acom-images/IMG-20240818-WA0012.webp"
+                                alt="room photo">
+                        </div>
+                        <div>
+                            <img class="function-photos" src="./assets/images/acom-images/IMG-20240818-WA0013.webp"
+                                alt="room photo">
+                        </div>
+                        <div>
+                            <img class="function-photos" src="./assets/images/acom-images/IMG-20240818-WA0014.webp"
+                                alt="room photo">
+                        </div>
+                        <div>
+                            <img class="function-photos" src="./assets/images/acom-images/IMG-20240818-WA0028.webp"
+                                alt="room photo">
+                        </div>
+                        <div>
+                            <img class="function-photos" src="./assets/images/acom-images/IMG-20240818-WA0034.webp"
+                                alt="room photo">
+                        </div>
+                        <div>
+                            <img class="function-photos" src="./assets/images/acom-images/IMG-20240818-WA0036.webp"
+                                alt="room photo">
+                        </div>
+                        <div>
+                            <img class="function-photos" src="./assets/images/acom-images/IMG-20240818-WA0037.webp"
+                                alt="room photo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!--Contact section-->
+
+    </section>
+    <section class="contact">
+        <div class="container contact-container">
+            <div class="row">
+                <div class="column column--50">
+                    <div class="contact-card">
+                        <div class="contact-card-mobile">
+                            <h2 class="contact-h2">Book a room directly</h2>
+                            <div class="break-line"></div>
+                            <p> Call us on 01670512004</p>
+                            <br>
+                            <p>or</p>
+                            <p>Email us at:</p>
+                            <p>enquiries@waterford-lodge.com</p>
+                            <button class="btn cards-btn"><a href="mailto:enquiries@waterford-lodge.com">Email
+                                    Us</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="column column--50">
+                    <div class="contact-card">
+                        <h2 class="contact-h2">Book a room online</h2>
+                        <div class="break-line"></div>
+                        <p>Or</p>
+                        <p>if you prefer</p>
+                        <p>to book a room online</p>
+                        <p>click here</p>
+                        <br>
+                        <button class="btn cards-btn"><a href="https://via.eviivo.com/WaterfordLodgeHotelNE61"
+                                target="_blank">Book online</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!--Footer section-->
+
     <section class="map">
         <div class="footer-map">
             <iframe class=" google-map"
@@ -86,19 +248,22 @@
     <footer class="footer">
         <div class="container">
             <div class="row align-centre space-between">
-                <div class="column column--dshrink">     
-                    <p class="footer-logo">W</p></div>
+                <div class="column column--dshrink">
+                    <p class="footer-logo">W</p>
+                </div>
                 <div class="column column--dshrink">
                     <nav class="footer-nav">
                         <ul>
-                       
+
                             <li><a href="./index.html">Home</a></li>
                             <li><a href="./contact.html">Contact</a></li>
-                            <li><a class="social-networks" href="https://www.facebook.com" target="_blank" aria-label="link to go to our facebook page">
-                                <i class="fab fa-facebook"></i></a></li>
-                            <li><a class="social-networks" href="https://www.instagram.com" target="_blank" aria-label="link to go to our instagram page">
-                                <i class="fab fa-instagram"></i></a></li>
-                    
+                            <li><a class="social-networks" href="https://www.facebook.com/WaterfordLodgeHotel"
+                                    target="_blank" aria-label="link to go to our facebook page">
+                                    <i class="fab fa-facebook"></i></a></li>
+                            <li><a class="social-networks" href="https://www.instagram.com/thewaterfordlodge/"
+                                    target="_blank" aria-label="link to go to our instagram page">
+                                    <i class="fab fa-instagram"></i></a></li>
+
                         </ul>
                     </nav>
                 </div>
@@ -111,18 +276,14 @@
         </div>
     </footer>
 
-         <!-- Javascript for the burger menu -->
-         <script>
-            function myFunction() {
-                var x = document.getElementById("burger-menu");
-                if (x.style.display === "flex") {
-                    x.style.display = "none";
-                } else {
-                    x.style.display = "flex";
-                }
-            }
-        </script>
+
+    <!--js links-->
+
+    <script src="//code.jquery.com/jquery-3.6.2.min.js" defer></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
+    <script src="js/script.js" defer></script>
 
 
 </body>
+
 </html>

@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +15,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <!--Favicon icon link-->
-    <link rel="icon" type="image/png" sizes="64x64" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
     <!--Slick css links-->
     <link href="assets/css/slick.css" rel="stylesheet" type="text/css">
     <link href="assets/css/slick-theme.css" rel="stylesheet" type="text/css">
@@ -27,8 +28,8 @@
 
 <body>
 
-    <!--Header-->
-    <header class="header">
+     <!--Header-->
+     <header class="header">
         <div class="container">
             <div class="row nav-desk nav-fixed nav-active">
                 <div class="column">
@@ -40,13 +41,23 @@
                                 <li><a href="./rooms.html">Rooms</a></li>
                                 <li><a href="./functions.html">Functions</a></li>
                                 <li><a href="./carvery.html">Carvery</a></li>
-                                <li><a href="">Menus</a></li>
+                                <li class="dropdown-menu">
+                                    <div class="dropdown">
+                                        <button class="dropbtn">Our Menus</button>
+                                        <div class="dropdown-content">
+                                            <a href="./menus/Waterford Menu-2024.pdf" target="_blank">Bar menu</a>
+                                            <a href="./menus/2024 Carvery menu.pdf" target="_blank">Sunday menu</a>
+                                        </div>
+                                    </div>
+                                </li>
                                 <li><a href="./contact.html">Contact us</a></li>
                                 <button class="btn"><a href="https://via.eviivo.com/WaterfordLodgeHotelNE61" target="_blank">Book a room</a></button>
                             </ul>
                         </nav>
                     </div>                    
                 </div> 
+            </div>
+        </div>
                  <!--burger menu-->
                     <div class="mobile-nav">
                         <a href="javascript:void(0);" class="icon" onclick="myFunction()"
@@ -59,21 +70,22 @@
                     <a class="header-logo nav-logo" href="./index.html">W</a>
                     <nav>
                         <ul id="burger-menu">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="contact.html">Rooms</a></li>
-                            <li><a href="assets/images/main-menu.pdf" target="_blank">Functions</a></li>
-                            <li> <a href="assets/images/kids-menu.pdf" target="_blank">Carvery</a></li>
-                            <li> <a href="assets/images/christmas-menu.pdf" target="_blank">Menus</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./rooms.html">Rooms</a></li>
+                            <li><a href="./functions.html" target="_blank">Functions</a></li>
+                            <li> <a href="./carvery.html" target="_blank">Carvery</a></li>
+                                <li> <a href="./menus/Waterford Menu-2024.pdf" target="_blank">Bar food menu</a>
+                            </li>
+                            <li><a href="./contact.html">Contact Us</a></li>
                         </ul>
                     </nav>
                 </div>               
             </div>
         </div>
     </header>
+    <!--Hero section-->
 
-     <!--Hero section-->
-     <div class="hero-outer">
+    <div class="hero-outer">
         <div class="opaque-overlay"></div>
         <div class="hero-image hero-zoom"></div>
         <div class="container">
@@ -86,46 +98,47 @@
             </div>
         </div>
     </div>
-    
 
 
-     <!--Contact section-->
-     <section class="contact">
+
+    <!--Contact section-->
+
+    <section class="contact">
         <div class="container contact-container ">
             <div class="row">
                 <div class="column column--50">
                     <div class="card contact-card contact-card-page">
                         <div class="container">
-                        <h2 class="contact-h2 contact-h2-page">Get in touch with us</h2>
-                        <div class="break-line"></div>
-                        <p>If You have any queries about anything please get in touch and Our team will be happy to help</p> 
-                        <br/>                                            
-                        <p>Our address</p>    
-                        <p>The Waterford Lodge</p>
-                        <p>Castle square</p>
-                        <p>ne611yd</p>   
-                        <p> Call us on 01670512004</p>
-                        <br>
-                        <p>Email us</p>
-                        <p>enquiries@waterford-lodge.com</p>
-                        <button class="btn cards-btn"><a href="mailto:enquiries@waterford-lodge.com">Email Us</a></button>
-                        <h2 class="contact-h2">Book a room</h2>
-                        <div class="break-line"></div>
-                        <p>To book directly</p>
-                        <p>Call us on</p>
-                        <p>01670512004</p>
-                        <br />
-                        <p> or book online</p>
-                        <button class="btn cards-btn"><a href="https://via.eviivo.com/WaterfordLodgeHotelNE61" target="_blank">Book online</a></button>
+                            <h2 class="contact-wraper contact-h2 contact-h2-page">Get in touch with us</h2>
+                            <div class="break-line"></div>
+                            <p>If You have any queries about anything please get in touch and Our team will be happy to
+                                help</p>
+                            <br />
+                            <p>Our address</p>
+                            <p>The Waterford Lodge</p>
+                            <p>Castle square</p>
+                            <p>NE611YD</p>
+                            <p> Call us on <span class="numbers-font">01670512004</span></p>
+                            <br>
+                            <p>Email us</p>
+                            <p>enquiries@waterford-lodge.com</p>
+                            <button class="btn cards-btn"><a href="mailto:enquiries@waterford-lodge.com">Email
+                                    Us</a></button>
+                            <h2 class="contact-h2">Book a room</h2>
+                            <div class="break-line"></div>
+                            <p>To book directly</p>
+                            <p>Call us on</p>
+                            <p>01670512004</p>
+                            <br />
+                            <p> or book online</p>
+                            <button class="btn cards-btn"><a href="https://via.eviivo.com/WaterfordLodgeHotelNE61"
+                                    target="_blank">Book online</a></button>
                         </div>
 
                     </div>
-            </div>
-            <div class="column column--50">
-                
+                </div>
+                <div class="column column--50">
                     <section class="map">
-                        
-                        
                         <div class="contact contact-h2">
                             <h2>How to find us</h2>
                             <br>
@@ -135,32 +148,30 @@
                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </section>
-                
+                </div>
             </div>
-        </div>
         </div>
     </section>
 
-
-
     <!--Footer section-->
-   
+
     <footer class="footer">
         <div class="container">
             <div class="row align-centre space-between">
-                <div class="column column--dshrink">     
-                    <p class="footer-logo">W</p></div>
+                <div class="column column--dshrink">
+                    <p class="footer-logo">W</p>
+                </div>
                 <div class="column column--dshrink">
                     <nav class="footer-nav">
                         <ul>
-                       
                             <li><a href="./index.html">Home</a></li>
                             <li><a href="./contact.html">Contact</a></li>
-                            <li><a class="social-networks" href="https://www.facebook.com" target="_blank" aria-label="link to go to our facebook page">
-                                <i class="fab fa-facebook"></i></a></li>
-                            <li><a class="social-networks" href="https://www.instagram.com" target="_blank" aria-label="link to go to our instagram page">
-                                <i class="fab fa-instagram"></i></a></li>
-                    
+                            <li><a class="social-networks" href="https://www.facebook.com/WaterfordLodgeHotel"
+                                    target="_blank" aria-label="link to go to our facebook page">
+                                    <i class="fab fa-facebook"></i></a></li>
+                            <li><a class="social-networks" href="https://www.instagram.com/thewaterfordlodge/"
+                                    target="_blank" aria-label="link to go to our instagram page">
+                                    <i class="fab fa-instagram"></i></a></li>
                         </ul>
                     </nav>
                 </div>
@@ -173,19 +184,13 @@
         </div>
     </footer>
 
-         <!-- Javascript for the burger menu -->
-         <script>
-            function myFunction() {
-                var x = document.getElementById("burger-menu");
-                if (x.style.display === "flex") {
-                    x.style.display = "none";
-                } else {
-                    x.style.display = "flex";
-                }
-            }
-        </script>
+    <!--js links-->
 
+    <script src="//code.jquery.com/jquery-3.6.2.min.js" defer></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
+    <script src="js/script.js" defer></script>
 
 
 </body>
+
 </html>
